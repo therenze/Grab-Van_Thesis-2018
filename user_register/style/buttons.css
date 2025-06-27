@@ -1,0 +1,315 @@
+.btn{
+    text-align: center;
+    padding: 7px;
+    width: auto;
+    font-size: 11px;
+    color: white;
+    background: #0391fe;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+  cursor: pointer;
+
+    
+}
+.btn-submit{
+    text-align: center;
+    padding: 10px;
+    width: auto;
+    font-size: 12px;
+    color: white;
+    background: #0391fe;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    right: 10%;
+    margin: 1%;
+    position: absolute;
+          box-shadow: 0 1px 2px rgba(0,0,0,.50);
+}
+.btn-back{
+    z-index: 2000;
+    position: fixed;
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 15px;
+    right: 0;
+    bottom: 60;
+    color: white;
+    background-color: #E65100;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+.btn-back1{
+    z-index: 2000;
+    position: fixed;
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 15px;
+    right: 0;
+    bottom: 140;
+    color: white;
+    background-color: #F57C00;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+.btn-back2{
+    z-index: 2000;
+    position: fixed;
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 15px;
+    right: 0;
+    bottom: 180;
+    color: white;
+     background-color: #FB8C00;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+.btn-back3{
+    z-index: 2000;
+    position: fixed;
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 15px;
+    right: 0;
+    bottom: 220;
+    color: white;
+    background-color: #FF9800;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+.btn-back4{
+    z-index: 2000;
+    position: fixed;
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 15px;
+    right: 0;
+    bottom: 100;
+    color: white;
+    background-color: #EF6C00;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 0.2s;
+}
+.btn-back:hover{
+    width: 9%;
+
+   
+}
+.btn-back1:hover{
+    width: 9%;
+
+   
+}
+.btn-back2:hover{
+    width: 9%;
+
+   
+}
+.btn-back3:hover{
+    width: 9%;
+ 
+   
+}
+.btn-back4:hover{
+    width: 9%;   
+}
+.btnn{
+    text-align: center;
+    padding: 7px;
+    width: 9%;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background: #0391fe;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+  cursor: pointer;
+
+    
+}
+.btnn:hover{
+ background: #2eb8ff;
+}
+
+
+    
+
+.btnn_select:hover{
+    background: #2eb8ff;
+}
+
+.btn:hover{
+    background: #2eb8ff;
+}
+.btn-submit:hover{
+    background: #2eb8ff;
+}
+.btn_booking{
+    padding: 6px;
+    width: 20%;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background: #0391fe;
+    margin-top: -15px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.btn_booking:hover{
+   background: #2eb8ff;
+    
+}
+.btn_edit{
+    padding: 6px;
+    width: 20%;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background: #fb6428;
+    margin-top: -15px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.btn_edit:hover{
+     background: #fc9c4f;
+    
+}
+.btn_delete{
+    padding: 6px;
+    width: 15%;
+    font-size: 13px;
+    color: white;
+    border: none;
+    background: #fd3b21;
+    margin-top: -15px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.btn_delete:hover{
+     background: #c6311e;
+    
+}
+
+.call_modal_view{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 9%;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background: #0391fe;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+  cursor: pointer;
+    
+}
+.call_modal_view:hover{
+    background: #2eb8ff;
+}
+.call_modal_edit{
+        box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 9%;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background: #fd7b2d;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+
+    
+}
+.call_modal_edit:hover{
+    background: #fd8c47;
+}
+.call_modal_add{
+        box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 9%;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background:#20d103;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.call_modal_add:hover{
+    background: #2fe511;
+}
+.call_modal_status{
+        box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 10px;
+    float: right;
+    color: white;
+    background: #034f84;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    margin-right: 1px;
+    text-decoration: none;
+
+    
+}
+.call_modal_status:hover{
+    background: #2eb8ff;
+}

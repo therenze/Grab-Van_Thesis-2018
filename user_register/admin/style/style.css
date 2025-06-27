@@ -1,0 +1,276 @@
+body{
+    background-color: #ecf3fa;
+}
+#wrapper{
+    font-size: 13px;
+    width: 1100px;
+    overflow: auto;
+    height: auto;
+    margin:  auto;
+    border: solid 1px #95b3d1;
+    background-color: white;
+    border-top-right-radius: 6px;
+    border-top-left-radius : 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#content_top{
+    margin: 10px;
+    text-align: justify;
+    border-bottom: solid 1px #7098ad;
+    
+
+} 
+#content{
+    
+    height: auto;
+    
+}
+
+#fieldset{
+    padding: 15px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #95b3d1;
+    height: auto;
+    background-color: #f0f6f9;
+}
+#fieldset img{
+        border: 2px solid #2eb8ff;
+        margin-right:15px;
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        float: left;
+}
+#fieldset_profile{
+    padding: 15px;
+    margin: 20px;
+    height: auto;
+    background-color: #f0f6f9;
+}
+#fieldset_profile img{
+        border-radius: 100px;
+        border: 2px solid #2eb8ff;
+        margin-right:15px;
+        width: 60px;
+        height: 60px;
+        float: left;
+}
+
+.error{
+    font-size: 13px;
+    width: 95%;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 2px;
+    text-align: center;
+}
+.okay{
+    font-size: 17px;
+    width: 95%;
+    border: 1px solid green;
+    color: green;
+    background: #ccffcc;
+    border-radius: 2px;
+}
+.note{
+    margin: 20px;
+    font-size: 13px;
+    width: 50%;
+    height: 7%;
+    border: 1px solid green;
+    color: green;
+    background: #ccffcc;
+    border-radius: 2px;
+    text-align: center;
+}
+#footer{
+    width: auto;
+    overflow: auto;
+    background: white;
+    color: #black;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 2px;
+    border-top: 1px;
+}
+
+
+/*DASHBOARD*/
+#dashboard{
+    width: 1000px;
+    overflow: auto;
+    height: 90%;
+    margin:  auto;
+    border: solid 1px #95b3d1;
+    background-color: white;
+    box-shadow: 0 1px 20px rgba(0,0,0,.75);
+}
+#dashboard img{
+    width: 45%;
+    margin-bottom: -8%;
+}
+
+#fieldset_dashboard{
+    width: auto;
+    margin: 2px;
+    height: auto;
+   padding: 0px;
+    
+}
+#fieldset_dashboard img{
+        width: 54px;
+        height: 50px;
+        float: left;
+        margin: 2px;
+        
+}
+#fieldset_dashboard .profile{
+        width: 50px;
+        height: 50px;
+        float: left;
+}
+#fieldset_wrapper_dashboard_messege{
+    margin: 10 10 10 20px;
+    width: 20%;
+    height: 70%;
+    float: left;
+    background-color: white;
+    overflow: auto;
+    font-size: 12px;
+}
+#fieldset_wrapper_dashboard_booking{
+    margin: 10 10 10 10px;
+    width: 70%;
+    height: 70%;
+    float: left;
+     background-color: white;
+     overflow: auto;
+      font-size: 12px;
+}
+#fieldset_wrapper_dashboard_user{
+    width: 25%;
+    height: 70%;
+    float: left;
+    margin: 10 10 10 10;
+    background-color: white;
+    box-shadow: 0 1px 10px rgba(0,0,0,.75);
+    font-size: 12px;
+}
+.sub{
+    height: 87%;
+     overflow: auto;
+}
+.note_dashboard{
+    width: auto;
+    height: 10%;
+    margin: 2 10 -15 10;
+    color: #fff;
+    background: #92d6fd;
+    border-radius: 2px;
+    text-align: left;
+    
+}
+.note_dashboard_sub{
+    font-size: 16px;
+    padding: 10px;
+    width: auto;
+    height: 4%;
+    color: #fff;
+    background: #2eb8ff;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+#footer_dashboard{
+    width: auto;
+    overflow: auto;
+    background: #000;
+    text-align: center;
+    font-size: 11px;
+    margin: 20px 0 0 0px;
+    border-radius: 2px;
+    background: white;
+    color: #black;
+    
+
+}
+.note_empty{
+    
+    margin: 120 10 230 10;
+    font-size: 33px;
+    padding-top: 10%;
+    width: auto;
+    height: 20%;
+    
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+/*MODAL CONTENT*/
+.table-responsive label{
+    float: left;
+    margin-left: 20%;
+    margin-top: -15%;
+    font-size: 20px;
+    font-weight: 800;
+}
+.table-responsive p{
+    float: left;
+    margin-left: 20%;
+    margin-top: -10%;
+    font-size: 13px;
+  
+}
+
+#fieldset-modal-view{
+    padding: 0px;
+    margin: 2px;
+    height: auto;
+    border: 0px;
+    font-size: 15px;
+}
+#fieldset-modal-view img{
+   margin-right:10px;
+   width: 130px;
+   height: 130px;
+   border-radius: 100px;
+   float: left;
+}
+#insert_form input{
+    width: 330px;
+    padding: 5px;
+}
+#add_form input{
+    width: 300px;
+    padding: 5px;
+}
+#add_form label{
+    color: blue;
+}
+#insert_form select{
+     width: 330px;
+    padding: 5px; 
+}
+#insert_form label{
+    color: #03a5f9;
+}
+#add_form select{
+     width: 300px;
+    padding: 5px; 
+}
+#status_form label{
+    color: blue;
+}
+#status_form select{
+     width: 300px;
+    padding: 5px; 
+}

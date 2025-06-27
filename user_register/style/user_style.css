@@ -1,0 +1,323 @@
+body{
+    background-color: #f4f4f4;
+    font-size: 13px;
+}
+#fade{
+    display: none;
+}
+#wrapper{
+       box-shadow: 0 1px 5px rgba(0,0,0,.50);
+    width: 1100px;
+    overflow: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/*---/-------------------header booking and user profile------------------/---*/
+
+#content_top{
+    margin: 10px;
+    text-align: justify;
+    border-bottom: solid 1px #2eb8ff;
+/*---/-------------------content center of booking.php and user_manageProfile.php---------------/---*/
+}
+#content_notification{
+    width: 85%;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 35px;
+  
+}
+#wrapper_booking{
+    widows: 100%;
+    height: 600px;
+    margin-left: 9%;
+    margin-right: 9%;
+    background: white;
+    border-radius: 4px;
+    margin-top: 1%;
+    padding: 0px;
+     box-shadow: 0 1px 5px rgba(0,0,0,.50);
+}
+#fieldset_booking_wrapper{
+    width: 44%;
+    height: 500px;
+    margin-top: 2px;
+    margin-left: 2%;
+    float: left;
+    font-size: 12;
+    border: none;
+    
+    
+}
+#fieldset_booking_view{
+    width: 44%;
+    height: 500px;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-right: 2%;
+    float: right;
+    border: none;
+}
+#fieldset_booking_view p{
+    background: #2eb8ff;
+    font-size: 15;
+    padding: 5px;
+    color: white;
+}
+#center-border{
+   margin-left: 41%; 
+   position: absolute;
+   border-left: 1px solid #2eb8ff;
+   width: 0px;
+   height: 50%;
+   margin-top: 10%;
+   
+}
+#fieldset_booking_view img{
+        border: 2px solid #2eb8ff;
+        margin-right:10px;
+        width: 120px;
+        height: 90px;
+        float: left;
+}
+#fieldset_booking{
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+    margin-bottom: 3%;
+    background-color: white;
+    border:none;
+}
+#about textArea{
+    width: 100%;
+    height: 20%;
+}
+#fieldset1{
+    padding: 10px;
+    height: auto;
+    margin:20px;
+    margin-bottom: 3%;
+    background-color: #f0f6f9;
+}
+#fieldset label{
+    margin-right: 5%;
+}
+#fieldset1 img{
+        border: 2px solid #2eb8ff;
+        margin-right:10px;
+        width: 120px;
+        height: 100px;
+        float: left;
+}
+#fieldset1 .profile{
+    border-radius: 110px;
+    border: 3px solid #2eb8ff;
+        margin-right:15px;
+        width: 150px;
+        height: 140px;
+        float: left;
+}
+#about{
+    margin: 20px;
+}
+
+
+.option{
+    height: 6%;
+    border-radius: 5px;
+    margin-top: -5px;
+    padding: 0px;
+}
+
+
+
+/*------HIGHLIGHTED MESSAGES-----*/
+.error{
+    margin: 10px;
+    font-size: 13px;
+    width: auto;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 2px;
+    text-align: center;
+}
+.okay{
+    margin: 10px;
+    font-size: 13px;
+    padding: 5px;
+    width: auto;
+    border: 1px solid green;
+    color: green;
+    background: #ccffcc;
+    border-radius: 2px;
+    text-align: center;
+}
+.note{
+    margin: 10px;
+    font-size: 14px;
+    width: auto;
+    height: 10%;
+    border: 1px solid green;
+    color: green;
+    background: #ccffcc;
+    border-radius: 2px;
+    text-align: center;
+}
+.note_booking{
+    
+    font-size: 17px;
+    padding: 7px;
+    width: auto;
+    height: 4%;
+    color: #fff;
+    background: #0391fe;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+.note_empty{
+    
+    margin: 20 10 20 10;
+    font-size: 33px;
+    padding-top: 10%;
+    width: auto;
+    height: 20%;
+    
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---DATEPICKER--*/
+#datepicker{
+    height: 6%;
+    margin-top: -5px;
+    padding: 0px;
+}
+
+
+
+
+
+/*---NEW----*/
+#fieldset img{
+        border: 2px solid #2eb8ff;
+        margin-right:15px;
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        float: left;
+}
+#fieldset{
+    padding: 15px;
+    margin: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px #95b3d1;
+    height: auto;
+    background-color: #f0f6f9;
+      
+}
+
+#footer{
+    width: auto;
+    overflow: auto;
+    background-color: #f4f4f4;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 2px;
+    border-top: 1px solid #ecf3fa;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.profile-wrapper{
+    padding: 20px;
+    height: auto;
+    margin:20px;
+    margin-bottom: 3%;
+    background-color: #f0f6f9;
+}
+.about-wrapper{
+    padding: 20px;
+    height: auto;
+    margin:20px;
+    margin-bottom: 3%;
+    background-color: #f0f6f9; 
+}
+.profile-wrapper .profile{
+        width: 80px;
+        height: 80px;
+        
+        border-radius: 100%;
+        float: left;
+    
+}
+.profile-wrapper .location-icon{
+    width: 15px;
+}
+.profile-wrapper label{
+    font-size: 30px;
+    font-weight: 800;
+}
+.profile-wrapper p1{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-wrapper p{
+    margin-left: 40px;
+    font-size: 14px;
+}
+.about-wrapper p1{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-wrapper p{
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+

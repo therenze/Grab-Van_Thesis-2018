@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    font: 0.7em "Open Sans", sans-serif;
+}
+nav .logo img{
+   width: auto;
+   float: left;
+   height: 80%;
+   padding: 5px;
+   line-height: 0px;
+  
+}
+
+nav{
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    background: #016dff;
+    height: 65px;
+    color: #fff;
+    text-align: center;
+     box-shadow: 0 2px 20px rgba(0,0,0,.75); 
+     opacity: 0.9;
+    
+}
+ul{
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+      
+}
+ul li{
+    
+    width: 149px;
+    float: right;
+    line-height: 65px;
+   
+}
+ul.child{
+    display: none;
+    
+}
+li{
+    
+    list-style: none;
+}
+ul.parent > li{
+    
+    cursor: pointer;
+    color: white;
+}
+ul li a{
+
+    background: #016dff;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    display: block;  
+}
+ul li a:hover {
+    background-color: #28acff;
+    transition: 0.4s;
+    color: white;
+    
+    
+}
+.arrow{
+    margin-top: -60px;
+    margin-left: 100px;
+    font-size: 22px;
+    padding: 0px;
+    color: orange;
+    transition: background 1s,  transform 0.3s ease-in;
+    
+}
+.nav-item img{
+    padding: 9px;
+    width: 30%;
+    height: 70%;
+    border-radius: 100%;
+    
+}
+
+
+
+
+
+
+
+/*-- THIS IS FOR THE LOGIN--*/
+.arrow-up{
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 15px solid transparent;
+	border-right:15px solid transparent;
+	border-bottom: 15px solid white;
+	right: 60px;
+        top: 50px;
+        display: none;
+}
+.login-form{
+	position: absolute;
+	width: 270px;
+	height: auto;
+	background: white;
+        color:  BLACK;
+	right: 20px;
+	top: 60px;
+	border-radius: 3px;
+	border-bottom: none;
+	display: none;
+        border: 1px solid #a3d9ef;
+        border-bottom: 2px solid #a3d9ef;
+        border-top-color: white;
+        
+        
+}
+
+.input-group-login input{
+    padding: 6px 2px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid #2eb8ff;
+    
+}
+.input-group-login img{
+    width: 7%;
+    margin-left:-30px;
+    margin-bottom: -2%;
+}
+.btnnn{
+    
+    padding: 5px;
+    width: 70%;
+    font-size: 15px;
+    color: white;
+   background: #2eb8ff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+   
+}
+.btnnn:hover{
+     background: #034f84;
+    
+    transition: .9s;
+}
+
+
+
+
+
+
+/*-- THIS IS FOR THE REGISTER--*/
+.r-arrow-up{
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 15px solid transparent;
+	border-right:15px solid transparent;
+	border-bottom: 15px solid #fff;
+	right: 215px;
+        top: 50px;
+        display: none;
+}
+.register-form{
+	position: absolute;
+	width: 30%;
+	height: auto;
+	background: #fff;
+        color:  BLACK;
+	right: 140px;
+	top: 60px;
+	border-radius: 3px;
+	border-bottom: none;
+	display: none;
+        border: 1px solid #a3d9ef;
+        border-bottom: 2px solid #a3d9ef;
+        border-top-color: white;
+}
+.input-group input{
+   margin: 2px;
+    padding: 6px 2px;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid #2eb8ff;
+    width: 90%;
+    
+}
+.btn{
+    padding: 7px;
+    width: 90%;
+    font-size: 15px;
+    color: white;
+   background: #2eb8ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #2eb8ff;
+   
+}
+.btn:hover{
+     background: #034f84;
+    transition: .9s;
+}
+.note{
+    margin: 10px;
+    font-size: 15px;
+    width: Auto;
+    height: 20px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 2px;
+    text-align: center;
+    padding: none;
+}
+#acc{
+    border: none;
+    margin-top: -5px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#acc legend{
+    float: left;
+    margin-left: 20px;
+    font-size: 17;
+    
+}
+
+
+
+
+
+/*--IMAGE ICON--*/
+.image-icon img{
+    width: 17%;
+    padding: 0;
+    float: left;
+    margin-top: 11%;
+    margin-left: 4%;
+    margin-right: -100%;
+}
+
+
+
+#ack{
+    margin-top: 0px;
+    font-size: 13px;
+    color: #2ca1ec;
+    
+
+}
+#ack-register{
+    margin-top: -10px;
+    font-size: 13px;
+    color: #2ca1ec;
+}

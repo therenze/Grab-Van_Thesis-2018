@@ -1,0 +1,402 @@
+body{
+    background-color: white; 
+}
+/*-- LOADING SPINNER --*/
+#loading{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ecf3fa;
+    border-top-color: #2eb8ff;
+    border-radius: 100%;
+    opacity: 0.5;
+    /*-- bring to center --*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    animation: round 2s linear infinite;
+}
+@keyframes round{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+
+
+
+/*---/-------------------HEADER IMAGE------------------/---*/
+header{
+    margin-left:0px;
+    width: 100%;
+    background-size: cover;
+}
+header img{
+    width: 100%;
+    position: fixed;
+    z-index: -1000;
+    background-size: cover;
+    
+}
+/*TEXT SLIDER*/
+#bubblebox{ 
+    padding-top: 100px;
+    margin: auto;
+    width:50%;
+    height: 28%;
+    margin-bottom: 0%;
+}
+#bubbles{ 
+    width:auto; 
+    margin:0px auto; 
+    text-align:center; 
+}
+#bubbles > div{ 
+    display:inline-block; 
+    width:8px; 
+    height:8px; 
+    margin:24px 10px 0px 10px; 
+    text-align:center; 
+    border:1.3px solid white; 
+    border-radius:100%; 
+    font-size:10px; 
+    text-decoration:none; 
+    transition: background 0.3s linear 0s; 
+    cursor:pointer; 
+}
+#bubblecontent{ 
+    margin:0px auto; 
+    height:  100%;
+    transition:opacity 0.3s linear 0s; 
+    font-family: Arial;
+}
+#bubblecontent img{
+    margin-left:0px;
+    width: 100%;
+}
+
+
+#online-icon img{
+   width: 25px;
+   background-color: WHITE; 
+   border-radius: 100%;
+   padding: 5px;
+   margin: 2%;
+   margin-top: 35%;
+    
+}
+#online-icon img:hover{
+    background-color: #cdcecd;
+    cursor: pointer;
+}
+
+
+
+/*---/-------------------WRAPPER---------------/---*/
+#wrapper{
+    font: 1.3em "Open Sans", sans-serif;
+    width:100%;
+    margin-top:29%;
+    height: auto;
+    border: none;
+    background-color: white;
+      box-shadow: 0 2px 200px rgba(0,0,0,20); 
+}
+/*---/-------------------CONTENT TOP---------------/---*/
+.content_top{
+    border-top: 1px solid #2eb8ff;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    text-align: justify;
+}
+
+    
+/*---/-------------------CONTENT CENTER IMAGE SLIDER---------------/---*/
+.content_center{
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -90px;
+    width: auto;
+    height: auto;
+      
+}
+#carousel {
+    position: relative;
+    width:auto;
+    margin:0 auto;
+
+}
+#slides {
+    background-color: #016dff;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    height: auto;
+}
+.slide-container {
+    margin: auto;
+    width:100%;
+    position: relative;
+}
+#slides li {
+    float:left;
+}
+.slide img{
+    border-radius: 100%;
+    margin: 20px;
+    padding: 20px;
+    margin-right: 100px;
+    width: 25%;  
+    float: right;
+}
+.slide label{
+    margin-left: 100px;
+    border-bottom: 1px solid #016dff;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+}
+.slide p{
+    margin-left: 110px;
+    padding: 17px;
+    font-size: 17px;
+    color: white;
+}
+.slide-content{
+    padding: 30px;
+}
+/*---/-------------------IMAGE SLIDER BOTTOM CONTAINER---------------/---*/
+.btn-bar{
+    display: block;
+    position: relative;
+    top: -220px;
+    width: 97%;
+    margin: auto;
+}
+#buttons a {
+    display:block;
+    font-size:50px;
+    color:black;
+    text-decoration:none;
+    height: auto;
+    padding: 10px;
+    opacity: 0.3;
+    background-color: white;
+    width:35px;
+}
+#buttons a:hover{
+    background-color: white;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+#prev{
+    float: left;
+}
+#next{
+    float: right;
+}
+
+
+
+
+
+/*---/-------------------content bottom IMAGE HOVER---------------/---*/
+.content_bottom{
+    width: auto;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 1px solid #2eb8ff;
+}
+.gc_news1-long-img{
+    position: relative;
+    margin: 10px;
+    width: 64%;
+    height: 50%;
+    float: left;
+}
+.gc_news1-square-img{
+    position: relative;
+    margin: 10px;
+    width: 31%;
+    height: 50%;
+    float: left;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.image2 {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: auto;
+  height: 0;
+  transition: .5s ease;
+  opacity: 0.8;
+}
+
+.gc_news1-long-img:hover .overlay {
+  height: 100%;
+}
+.gc_news1-square-img:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  text-align: justify;  
+  white-space: nowrap; 
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+/*---/-------------------CONTENT BOTTOM BANNER DRIVE WITH US---------------/---*/
+.section{
+    height: 60px;
+}
+.content_bottom-join{
+    margin-top: 200px;
+    background-color:#016dff;
+    height: 300px;  
+    padding:20px;
+}
+.content_bottom-join-content{
+    margin: auto;
+    height: 200px;
+    color: white;
+}
+.content_bottom-join img{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 30px;
+    float: left;
+    border-radius: 100%;
+}
+.content_bottom-join-content label{
+    border-bottom: 1px solid white;
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+.content_bottom-join-content p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/*---/-------------------CONTENT BOTTOM MISSION VISSION COMMITMENT---------------/---*/
+.content_bottom-mvg{
+    margin: auto;
+    width: 85%;
+    background: white;
+    border-top: 1px solid #2eb8ff;      
+}
+.gc_news img{
+    float: left; 
+    width: 25%;
+    margin-top: -90px;
+   padding: 4%;
+    
+}
+
+
+/*-----BOTTOM INFORMATION CONTACT US------*/
+.bottom-information{
+    color: white;
+    margin-top: 35%;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background: #016dff;
+    font-size: 15px;
+}
+#bottom-information1{
+  width: 80%;
+  margin: auto;
+    
+}
+.bottom-information img{
+margin: auto;
+    margin-top: -19%;
+width: 60%;
+border-bottom: 1px solid #ecf3fa;
+}
+#bottom-info-body{
+    width: 15%;
+    height: 15%; 
+    margin-left: 15%;
+    float: left;
+}
+
+
+
+
+/*-----------------------FOOOTER-----------------/---*/
+#footer{
+    width: auto;
+    overflow: auto;
+    background: #016dff;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 2px;
+    border-top: 1px solid #ecf3fa;
+  
+}
+
+
+
+
+/*-----------------------TITLE-----------------/---*/
+.content_bottom-title label{
+    padding: 5% 0% 0% 0%;
+    width: auto;
+    height: auto; 
+    font-size: 45px;
+    color: #016dff;
+    font-weight: 800;
+    
+}
+.content_bottom-title p{
+    font-size: 17px;
+    color:black;
+    font-weight: 400;
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

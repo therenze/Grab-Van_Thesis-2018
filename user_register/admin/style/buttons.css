@@ -1,0 +1,154 @@
+.btn{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    font-size: 12px;
+    height: 40px;
+    color: white;
+     float: right;
+      background: #fd6205;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 20px;
+  cursor: pointer;    
+}
+.btn:hover{
+ background: #e05704;
+}
+.btnn{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 10px;
+    float: right;
+    color: white;
+    background: #034f84;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+
+    
+}
+.btnn:hover{
+    background: #2eb8ff;
+}
+.call_modal_view{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 9%;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background: #0391fe;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+  cursor: pointer;
+    
+}
+.call_modal_view:hover{
+    background: #2eb8ff;
+}
+.call_modal_edit{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 9%;
+    font-size: 11px;
+    float: right;
+    color: white;
+    background: #fd7b2d;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    text-decoration: none;
+    cursor: pointer;
+
+    
+}
+.call_modal_edit:hover{
+    background: #fd8c47;
+}
+.call_modal_add{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 10px;
+    float: right;
+    color: white;
+    background: #20d103;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    margin-right: 20px;
+    text-decoration: none;
+
+    
+}
+.call_modal_add:hover{
+    background: #2fe511;
+}
+.call_modal_status{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 10px;
+    float: right;
+    color: white;
+    background: #034f84;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    margin-right: 1px;
+    text-decoration: none;
+
+    
+}
+.call_modal_status:hover{
+    background: #2eb8ff;
+}
+.call_modal_print{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 10px;
+    float: right;
+    color: white;
+    background: #12b706;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    margin-right: 1px;
+    text-decoration: none;
+
+    
+}
+.call_modal_print:hover{
+    background: #0fab04;
+}
+.call_modal_delete{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.50);
+    text-align: center;
+    padding: 7px;
+    width: 7%;
+    font-size: 10px;
+    float: right;
+    color: white;
+    background: #fe2f2f;
+    border: none;
+    border-radius: 2px;
+    margin:  1px ;
+    margin-right: 1px;
+    text-decoration: none;
+
+    
+}
+.call_modal_delete:hover{
+    background: #fe4e4e;
+}
