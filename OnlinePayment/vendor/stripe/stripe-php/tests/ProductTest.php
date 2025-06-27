@@ -7,7 +7,7 @@ class ProductSKUOrderTest extends TestCase
     public function testProductFalseyId()
     {
         try {
-            Stripe::setApiKey('sk_test_JieJALRz7rPz7boV17oMma7a');
+            Stripe::setApiKey('sk_test_here');
             $retrievedProduct = Product::retrieve('0');
         } catch (Error\InvalidRequest $e) {
             // Can either succeed or 404, all other errors are bad
@@ -20,7 +20,7 @@ class ProductSKUOrderTest extends TestCase
     public function testProductCreateUpdateRead()
     {
 
-        Stripe::setApiKey('sk_test_JieJALRz7rPz7boV17oMma7a');
+        Stripe::setApiKey('sk_test_here');
         $ProductID = 'gold-' . self::generateRandomString(20);
         $p = Product::create(array(
             'name'     => 'Gold Product',
@@ -41,7 +41,7 @@ class ProductSKUOrderTest extends TestCase
 
     public function testSKUCreateUpdateRead()
     {
-        Stripe::setApiKey('sk_test_JieJALRz7rPz7boV17oMma7a');
+        Stripe::setApiKey('sk_test_here');
         $ProductID = 'silver-' . self::generateRandomString(20);
         $p = Product::create(array(
             'name'     => 'Silver Product',
@@ -75,7 +75,7 @@ class ProductSKUOrderTest extends TestCase
 
     public function testSKUProductDelete()
     {
-        Stripe::setApiKey('sk_test_JieJALRz7rPz7boV17oMma7a');
+        Stripe::setApiKey('sk_test_here');
         $ProductID = 'silver-' . self::generateRandomString(20);
         $p = Product::create(array(
             'name'     => 'Silver Product',
@@ -104,7 +104,7 @@ class ProductSKUOrderTest extends TestCase
 
     public function testOrderCreateUpdateRetrievePayReturn()
     {
-        Stripe::setApiKey('sk_test_JieJALRz7rPz7boV17oMma7a');
+        Stripe::setApiKey('sk_test_here');
         $ProductID = 'silver-' . self::generateRandomString(20);
         $p = Product::create(array(
             'name'      => 'Silver Product',
